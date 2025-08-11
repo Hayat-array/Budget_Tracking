@@ -1,0 +1,14 @@
+    body {
+        font-family: "Inter", sans-serif;
+      }
+      .hidden {
+        display: none !important;
+      }
+  .box1 {
+    height: 16rem; /* desktop */
+  }
+  @media (max-width: 768px) {
+    .box1 {
+      height: auto; /* mobile */
+    }
+  }
